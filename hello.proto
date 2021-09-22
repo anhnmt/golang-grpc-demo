@@ -1,0 +1,9 @@
+// phiên bản proto3
+syntax = "proto3";
+// tên package được sinh ra
+package main;
+// message là một đơn vị dữ liệu trong Protobuf
+message String {
+    // chuỗi string được truyền vào hàm RPC
+    string value = 1;
+}
